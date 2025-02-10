@@ -8,7 +8,7 @@ stroke(0);
 void draw(){
 
   
-  
+  //Fondo de los circulos azules
  for (int i = 0;  i < width;  i=i+20){
    for(int j = 0; j < height; j=j+50){
      fill(#004F7C, 50);
@@ -17,7 +17,7 @@ void draw(){
     }
     i=i+30;
  }      
-  
+   //Triangulos hacía arriba color ocre
  for (int i = 0;  i < width;  i=i+25){
    for(int j = 0; j < height; j=j+50){
    
@@ -26,7 +26,8 @@ void draw(){
      
     }
     i=i+25;
- }     
+ }
+ //Triangulos hacía abajo color esmeralda
 for (int i = 0;  i < width;  i=i+25){
    for(int j = 0; j < height; j=j+50){
    
@@ -36,7 +37,7 @@ for (int i = 0;  i < width;  i=i+25){
     }
     i=i+25;
  }     
-  
+  //Triangulos hacía la derecha color marfil
  for (int i = 0;  i < width;  i=i+25){
    for(int j = 0; j < height; j=j+50){
    
@@ -46,7 +47,7 @@ for (int i = 0;  i < width;  i=i+25){
     }
     i=i+25;
  }     
-    
+    //repetición de los circulos para la visibilidad
    for (int i = 0;  i < width;  i=i+20){
    for(int j = 0; j < height; j=j+50){
      fill(#004F7C, 25);
@@ -55,8 +56,7 @@ for (int i = 0;  i < width;  i=i+25){
     }
     i=i+30;
  }      
-   
- 
+ //Los triangulos conforman los cuadrados que se ven por pura construcción 
+ // La unio de criculos pareciera crear un cono o un tipo de flor rara
 }
- 
  
