@@ -7,34 +7,55 @@ stroke(0);
 
 void draw(){
 
-  for (int i = 0;  i < width;  i=i+50){
-   for(int j = 0; j < height; j=j+50){
-   line(i, 0, i, width);
-    line(0, j, height, j); 
-    }
-    
- }     
+  
   
  for (int i = 0;  i < width;  i=i+20){
    for(int j = 0; j < height; j=j+50){
-     noFill();
+     fill(#004F7C, 50);
     ellipse(i, j, 70, 70);
      
     }
     i=i+30;
  }      
   
- for (int i = 0;  i < width;  i=i+20){
-   for(int j = 0; j < height; j=j+60){
-     fill(255);
-   triangle(i, j, i-30, j+30, i+30, j+30);
+ for (int i = 0;  i < width;  i=i+25){
+   for(int j = 0; j < height; j=j+50){
+   
+    fill(#C89B3C, 150);
+   triangle(i, j, i-25, j+25, i+25, j+25);
      
     }
-    i=i+60;
+    i=i+25;
  }     
-
-         
-
+for (int i = 0;  i < width;  i=i+25){
+   for(int j = 0; j < height; j=j+50){
+   
+    fill(#1E6F50, 150);
+   triangle(i, j, i-25, j-25, i+25, j-25);
+     
+    }
+    i=i+25;
+ }     
+  
+ for (int i = 0;  i < width;  i=i+25){
+   for(int j = 0; j < height; j=j+50){
+   
+    fill(#F4E3C6, 150);
+   triangle(i, j, i-25, j-25, i-25, j+25);
+     
+    }
+    i=i+25;
+ }     
+    
+   for (int i = 0;  i < width;  i=i+20){
+   for(int j = 0; j < height; j=j+50){
+     fill(#004F7C, 25);
+    ellipse(i, j, 70, 70);
+     
+    }
+    i=i+30;
+ }      
+   
  
 }
  
